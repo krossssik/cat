@@ -1,0 +1,159 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/* COLORS ======================================= */
+
+:root{
+    --bred:rgba(151, 12, 12, 0.2);
+    --purple:rgba(73, 12, 151, 1);
+    --blue:rgba(12, 84, 151, 1);
+    --grenn:rgba(73, 151, 12, 1);
+    --red:rgba(151, 12, 12, 1);
+    --bg1:rgba(237, 218, 202, 1);
+    --bg2:rgba(153, 112, 82, 1);
+    --so-bred:rgba(51, 35, 23, 1);
+    --bg3:rgba(244, 232, 222, 1);
+    --bg4:rgba(167, 124, 93, 1);
+    --grey:rgba(165, 165, 165, 1);
+    --bg5:rgba(196, 196, 196, 1);
+}
+
+
+/* /COLORS ======================================= */
+
+body{
+    
+    max-width: 768px;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg2);
+    height: 56px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+}
+.arrow-left{
+    margin: 16px 12px;
+}
+.arrow-left:hover{
+    opacity: .4;
+    cursor: pointer;
+}
+.header__text{
+    font: 300 24px/28px Roboto;
+}
+.menu,.create{
+    border: none;
+    background: none;
+}
+.menu:hover,.create:hover{
+    opacity: .3;
+}
+.text{
+    font: 300 24px/28px Roboto;
+}
+.text-content{
+    font: 300 16px/0 Roboto;
+}
+.header__text{
+    margin-left: 12px;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+}
+.create{
+    margin-right: 14px;
+}
+.right-create:hover{
+    opacity: .4;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Main ============================================== */
+
+
+
+
+
+
+.main{
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    background-color: var(--bg3);
+}
+.main__cat-card{
+    max-width: 760px;
+    height: 104px;
+    background-color: var(--bg3);
+    border: 1px solid var(--bg2);
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 25rem;
+}
+.cat{
+    margin: 22px 22px;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 82px 12px 0 0;
+}
+.main__cat-card:hover{
+    background: url(img/cat-card/create/Icon.png) no-repeat;
+    background-position: 370px 10px;
+    cursor: pointer;
+}
+.main-create{
+    display: flex;
+    gap: 16px;
+    padding: 10px 0 0 12px;
+}
+
+
+
+
+
+/* FOOTER ================================ */
+
+
+
+
+
+
+.icon{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+
+.footer{
+    margin-top: 476px;
+}
+.left, .right{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.left:hover, .right:hover{
+    opacity: .4;
+}
