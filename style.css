@@ -39,16 +39,8 @@ body{
     display: flex;
     align-items: center;
 }
-.arrow-left{
-    margin: 16px 12px;
-}
-.arrow-left:hover{
-    opacity: .4;
-    cursor: pointer;
-}
-.header__text{
-    font: 300 24px/28px Roboto;
-}
+
+
 .menu,.create{
     border: none;
     background: none;
@@ -60,7 +52,7 @@ body{
     font: 300 24px/28px Roboto;
 }
 .text-content{
-    font: 300 16px/0 Roboto;
+    font: 300 12px/0 Roboto;
 }
 .header__text{
     margin-left: 12px;
@@ -72,7 +64,7 @@ body{
 .create{
     margin-right: 14px;
 }
-.right-create:hover{
+.create:hover{
     opacity: .4;
     cursor: pointer;
 }
@@ -117,8 +109,9 @@ body{
 }
 .main__cat-card:hover{
     background: url(img/cat-card/create/Icon.png) no-repeat;
-    background-position: 370px 10px;
+    background-position: 388px 10px;
     cursor: pointer;
+    
 }
 .main-create{
     display: flex;
